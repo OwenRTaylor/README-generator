@@ -54,7 +54,7 @@ const questions = [
     {
         type: 'input',
         name: 'input',
-        message: 'What does the user have to know abour using the repo:',
+        message: 'What does the user have to know about using the repo:',
         default: ''
     },
     {
@@ -90,7 +90,7 @@ inquirer.prompt(questions[i]).then(function(data) {
     init();
 })
     } else {
-        license = file1.renderLicenseBadge(dataArr[4])
+        license = file1.renderLicense(dataArr[4])
 
         console.log(license)
         writeToFile('README.md')
@@ -100,4 +100,5 @@ inquirer.prompt(questions[i]).then(function(data) {
 // Function call to initialize app
 
 init();
+// calling generateMarkdown.js file
 const file1 = require('./utils/generateMarkdown.js');

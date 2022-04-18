@@ -1,7 +1,7 @@
-# Project name
-
+# README Generator
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 ## Description 
-No Decription
+a Node.js README Generator
 
 
 ## Table of contents
@@ -18,14 +18,14 @@ No Decription
 
     
 ## Usage
- 
+Nothing 
 ## License
-There is currently no license attched to this project   
+This project uses the GPL license:  https://www.gnu.org/licenses/gpl-3.0 
 ## Contributing
- 
+Nothing 
 ## Tests
  To run tests run the command: npm test 
 ## Questions
- You can find my at https://github.com/username
+ You can find my at https://github.com/Ortaylo
 
- And email me at https://your email
+ And email me at https://owentaylor60@yahoo.com
