@@ -84,7 +84,7 @@ function init() {
 inquirer.prompt(questions[i]).then(function(data) {
     
     console.log(data)
-    dataArr[i] = data.input
+    dataArr = data.input
     i++
     console.log(dataArr)
     init();
